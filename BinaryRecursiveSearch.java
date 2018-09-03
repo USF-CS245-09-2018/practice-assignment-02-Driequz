@@ -6,14 +6,14 @@ public String searchName()
 	return "BinaryRecursiveSearch";
 }
 
-public int search(int[] array, int target) 
+public int search(int array[], int target) 
 {
 	{
 		return binsearch(array,target,0,array.length-1);
 	}
 }
 
-public int binsearch(int[]n, int target, int low, int upper)
+public int binsearch(int n[], int target, int low, int upper)
 {
 	if(low < upper) 
 	{
