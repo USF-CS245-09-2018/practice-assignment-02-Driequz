@@ -5,7 +5,7 @@ public class LinearSearch implements Practice2Search{
 	{
 	 for(int i = 0; i < n.length; i++)
 	 {
-		 if(n[i]== target)
+		 if(n[i] == target)
 		 {
 			 return i;
 		 }
